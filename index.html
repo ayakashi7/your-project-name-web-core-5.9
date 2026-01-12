@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web core 5.9</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="first-container">
+      <section class="left-side">
+        <img src="img/first-img.jpg" alt="" />
+        <!-- <img src="icon/logo.svg" alt="logo" class="logo" /> -->
+      </section>
+      <section class="right-side">
+        <h2>Get iintoo it today</h2>
+        <p class="subtitle">
+          There is no charge or obligation upon registration.
+        </p>
+        <div class="social-buttons">
+          <button class="btn-fb">Register with Facebook</button>
+          <button class="btn-lin">Register with LinkedIn</button>
+        </div>
+        <div class="br">or</div>
+        <form>
+          <!-- <div class="input-group">
+            <input type="email" required />
+            <input type="tel" required />
+          </div> -->
+
+          <div class="input-group">
+            <div class="field">
+              <label>Email</label>
+              <input
+                type="email"
+                placeholder="gus.goodwin@gmail.com"
+                required
+              />
+            </div>
+            <div class="field">
+              <label>Phone</label>
+              <input type="tel" required />
+            </div>
+          </div>
+          <p class="qtext">What type of investor are you?</p>
+          <p class="stext">Select the type of investor you are below.</p>
+          <div class="check-group">
+            <label>
+              <input type="radio" name="investor" value="individual" checked />
+              <span>Individual</span>
+              <i class="info-icon">i</i>
+            </label>
+            <label>
+              <input type="radio" name="investor" value="business" />
+              <span>Business</span>
+              <i class="info-icon">i</i>
+            </label>
+            <label>
+              <input type="radio" name="investor" value="ira" />
+              <span>IRA</span>
+              <i class="info-icon">i</i>
+            </label>
+            <label>
+              <input type="radio" name="investor" value="trust" />
+              <span>Trust</span>
+              <i class="info-icon">i</i>
+            </label>
+          </div>
+          <div class="human">
+            I am a natural person investing on my own behalf as a sole owner,
+            joint tenant, or tenant in common.
+          </div>
+          <div class="foot-group">
+            <label>
+              <input type="checkbox" required />
+              <span>
+                I agree to the terms and receiving notifications from iintoo
+                <a href="#potom">View full terms</a>
+              </span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn-submit">Create Account</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
