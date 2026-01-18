@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,13 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="first-container">
       <section class="left-side">
-        <img src="img/first-img.jpg" alt="" />
-        <!-- <img src="icon/logo.svg" alt="logo" class="logo" /> -->
+        <!-- <img src="img/first-img.jpg" alt="gigi" class="gigi" /> -->
+        <img src="img/logo.svg" alt="logo" class="logo" />
       </section>
       <section class="right-side">
         <h2>Get iintoo it today</h2>
@@ -26,10 +25,24 @@
           There is no charge or obligation upon registration.
         </p>
         <div class="social-buttons">
-          <button class="btn-fb">Register with Facebook</button>
-          <button class="btn-lin">Register with LinkedIn</button>
+          <button
+            class="btn-fb"
+            style="display: flex; align-items: center; gap: 10px; height: 40px"
+          >
+            <img src="icon/facebook.svg" alt="facebook" class="icon-facebook" />
+            <p class="reg-facebook">Register with Facebook</p>
+          </button>
+          <button
+            class="btn-lin"
+            style="display: flex; align-items: center; gap: 10px; height: 40px"
+          >
+            <img src="icon/linkedin.svg" alt="linkedin" class="icon-linkedin" />
+            <p class="reg-linkedin">Register with Linkedin</p>
+          </button>
         </div>
-        <div class="br">or</div>
+        <div class="divider" style="width: 50%; margin-left: 25%">
+          <span>OR</span>
+        </div>
         <form>
           <!-- <div class="input-group">
             <input type="email" required />
